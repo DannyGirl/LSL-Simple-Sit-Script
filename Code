@@ -1,0 +1,8 @@
+default
+{
+    state_entry()
+    {
+    llSetClickAction(CLICK_ACTION_SIT);
+    llSitTarget(<0.25, 0.0, 0.5>, ZERO_ROTATION);
+    }
+}
